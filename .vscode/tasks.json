@@ -4,10 +4,10 @@
       {
         "label": "Build with Clang",
         "type": "shell",
-        "command": "clang++",
+        "command": "clang",
         "args": [
-          "-std=c++17",
-          "-stdlib=libc++",
+          "-std=c17",
+        //   "-stdlib=libc",
           "helloworld.c",
           "-o",
           "helloworld.out",
